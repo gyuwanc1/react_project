@@ -1,5 +1,5 @@
-.App {
-  text-align: center;
+.App { width: 1920px; height: auto; min-height: 500px; background-color: #fad;
+  text-align: center; margin: auto;
 }
 
 .App-logo {
