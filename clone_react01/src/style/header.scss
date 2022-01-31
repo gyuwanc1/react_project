@@ -1,6 +1,6 @@
 //header
 
-#headBox {display: flex; justify-content: space-between;  padding: 0px 100px;
+#headBox {position: fixed; top: 0; left:calc(50% - 720px); z-index: 10; display: flex; justify-content: space-between;  padding: 0px 100px;
   width: 100%; max-width: 1440px; height: 140px; background-color: rgba(#777,0.5); margin: auto; color: #fff;
 font-family:sans-serif; text-transform: capitalize; font-weight: 600;}
 

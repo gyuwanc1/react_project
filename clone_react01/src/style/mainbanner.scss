@@ -1,0 +1,15 @@
+//Main_banner
+
+#Main_banner {position: relative; width: 100%; max-width: 1440px; height: auto; min-height: 600px; 
+  background-color: aqua; margin: auto;
+  background: {image:url('../multi/img/main_benner_img.766085fd.jpg');
+    repeat:no-repeat;
+    position:50% 50% ;
+    size: cover;            
+    }
+    .explain_box {width: auto; height: auto; position:absolute; top: 40%; left: 10%;  color:#fff; font-family: sans-serif;}
+    h2{font-size: 48px; font-weight: lighter; margin-bottom: 20px;
+      & span { font-weight: bold;}
+    }
+    p {text-align: left; }
+}
