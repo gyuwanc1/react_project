@@ -1,0 +1,24 @@
+//guide.scss
+
+#guide_box { display: flex; justify-content: space-around; width: 1280px; height: auto; margin: auto; margin-top: 50px; 
+  & li {width: 620px; height: 130px; background-color: #f9f9f9; border: 1px solid #777; border-radius: 10px;
+    & a {display: block; width: 100%; height: 100%;  
+    & span {display: block; width: 140px; height: auto; text-align: left;  font-family: sans-serif; font-weight: bold; font-size: 18px;
+      text-transform:uppercase; color:#541586; transform: translate(30px) translateY(50px);}
+    }
+  }
+  & li:nth-child(1)  {
+    background: {image:url('../multi/img/use_guide.png');
+      repeat:no-repeat;
+      position:80% 50% ;
+      size: contain;            
+      }
+  }
+  & li:nth-child(2)  {
+    background: {image:url('../multi/img/aplyguide.png');
+      repeat:no-repeat;
+      position:80% 50% ;
+      size: contain;            
+      }
+  }  
+}

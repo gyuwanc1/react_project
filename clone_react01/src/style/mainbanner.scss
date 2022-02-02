@@ -1,6 +1,6 @@
 //Main_banner
 
-#Main_banner {position: relative; width: 100%; max-width: 1440px; height: auto; min-height: 600px; 
+#Main_banner {position: relative; width: 100%; height: auto; min-height: 600px; 
   background-color: aqua; margin: auto;
   background: {image:url('../multi/img/main_benner_img.766085fd.jpg');
     repeat:no-repeat;
@@ -12,4 +12,12 @@
       & span { font-weight: bold;}
     }
     p {text-align: left; }
+
+    .md_box {position: absolute;  left:calc(50% - 300px); bottom: 40px; display: flex; justify-content: space-around;
+        width: 600px; height: 50px; background-color: #ffe854; align-items: center;
+      font-family:sans-serif; border-radius: 10px; color: #541586;  
+    & p:nth-child(1) {width: 510px; height: auto; border-right: 1px solid #541586;}
+    & p:nth-child(2) {width: auto; height: auto; font-weight: bolder; }
+    }
+    
 }
