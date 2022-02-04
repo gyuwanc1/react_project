@@ -1,5 +1,6 @@
 
 import './App.css';
+import Category from './component/Category';
 import Guide from './component/Guide';
 import Header from './component/Header';
 import Main from './component/Main';
@@ -11,7 +12,7 @@ function App() {
       <Header />
       <Main />
       <Guide />       
-
+      <Category />
     </div>
   );
 }
