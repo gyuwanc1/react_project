@@ -4,6 +4,7 @@ import Category from './component/Category';
 import Guide from './component/Guide';
 import Header from './component/Header';
 import Main from './component/Main';
+import Today from './component/Today';
 
 export default App;
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Main />
       <Guide />       
       <Category />
+      <Today />
     </div>
   );
 }
