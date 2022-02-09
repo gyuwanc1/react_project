@@ -12,14 +12,30 @@
   }
   .con_area {display: flex; justify-content: space-between; align-items: center; width: 1280px;  height: 300px; 
     padding: 0px 30px;    
-    & li{ width: 550px; height: 280px;}
-    & li:nth-child(1) {  
+    & li{ width: 550px; height: 280px;
+      .toozic_01 {width: 100%; height: auto;  font-size: 18px; font-weight: bold; 
+      }
+      .toozic_02{ width: 100%; height: auto;
+      margin-top: 20px;}
+      .oziclistens {width: 80px; height: 40px; background-color: rgba(#fff, 0.3);margin-top: 50px;
+      border-radius: 40px;
+      }
+      & a {display: block; width: 100%; height: 100%;
+      text-align: center; line-height: 40px;
+      }
+    }
+
+    & .bcg_img { padding: 30px 20px;
+      color: #fff;text-align: left;
+      font-family: sans-serif;  
       background: {image:url('../multi/img/cont_blue.png');
       repeat:no-repeat;
       position:50% 50% ;
       size: contain;            
       } 
       border-radius: 20px;}
-    & li:nth-child(2) {background-color: #fda;}
+    & .bcg_img_02 {
+      background-color: #fda;}
+
   }
 }
