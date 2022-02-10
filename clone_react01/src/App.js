@@ -5,6 +5,7 @@ import Guide from './component/Guide';
 import Header from './component/Header';
 import Main from './component/Main';
 import Today from './component/Today';
+import Mview from './component/Mview';
 
 export default App;
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Guide />       
       <Category />
       <Today />
+      <Mview />
     </div>
   );
 }

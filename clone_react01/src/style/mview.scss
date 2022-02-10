@@ -1,0 +1,13 @@
+//mview.scss
+
+#Mview_box {
+  width: 100%; height: 252px;
+  background: {image:url('../multi/img/banner1.png');
+    repeat:no-repeat;
+    position:50% 50% ;
+    size: cover;            
+    }
+    margin-top: 50px;
+  
+  & a {display: block; width:100%; height: 100%;}
+}
