@@ -1,0 +1,42 @@
+//after.scss
+
+#after_box {width: 1280px; height: 460px; margin: auto; font-family: sans-serif;
+  h2 {width: auto; height: auto; font-size: 28px; text-align: left; padding: 0px 20px;}
+  .livearea {display: flex; justify-content: space-between; flex-wrap: wrap; align-items: center; width: 100%; height: 420px; 
+    & li {display: flex; justify-content: flex-start;  width: 616px; height: 160px;
+      & div {width: 180px; height: 160px; margin-right: 10px; border-radius: 10px;}
+      & dl {width: 436px; height: 160px;
+        & dt {width: 100%; height: 30px; font-size: 18px; font-weight: bold; text-align: start; border-bottom: 2px solid rgba(#555,0.5);}
+        & dd {width: 100%; height: auto;  font-size: 18px; color: #999; text-align: start;}
+      }
+      .img_01 {    
+        background: {image:url('../multi/img/img_01.png');
+        repeat:no-repeat;
+        position:50% 50% ;
+        size: cover;            
+        }
+      }
+      .img_02 {    
+        background: {image:url('../multi/img/img_02.png');
+        repeat:no-repeat;
+        position:50% 50% ;
+        size: cover;            
+        }
+      }
+      .img_03 {    
+        background: {image:url('../multi/img/img_03.png');
+        repeat:no-repeat;
+        position:50% 50% ;
+        size: cover;            
+        }
+      }
+      .img_04 {    
+        background: {image:url('../multi/img/img_04.png');
+        repeat:no-repeat;
+        position:50% 50% ;
+        size: cover;            
+        }
+      }
+    }
+  }
+}
