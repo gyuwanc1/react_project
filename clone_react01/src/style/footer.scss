@@ -1,0 +1,29 @@
+//footer.scss
+
+#footbox {width: 1440px; height: 370px; background-color: rgba(51,51,51); padding: 100px;
+  h2 {width: 80px; height: 26px; margin-bottom: 30px;
+    background: {image:url('../multi/img/footlog.png');
+      repeat:no-repeat;
+      position:50% 50% ;
+      size: contain;            
+      }
+  }
+  .footarea {display: flex; justify-content: space-between; width: 100%; height: 110px;
+  font-family: sans-serif; color:#fff;
+    .foot_01 {width: 700px; height: 100%; border-right: 1px solid rgba(112,112,112) ;
+    font-size: 14px; text-align: start; text-transform:uppercase;
+      &> ul {display: flex;justify-content:flex-start;width: 100%; height: auto; margin-bottom: 20px;
+        &> li {width: auto; height: auto; margin-right: 50px; font-size: 16px; 
+          font-weight: bold;
+          & a {display: block; width: auto; height: auto;}
+        }
+      }
+      & p {margin-bottom: 10px;}
+  }
+    .foot_02 {width: 400px; height: 100%; text-align: start;text-transform: uppercase;
+      & p:nth-child(1) {margin-bottom: 10px;}
+      & p:nth-child(2) {font-weight: bold; font-size: 18px; margin-bottom: 10px; }
+    }
+
+  }
+}
