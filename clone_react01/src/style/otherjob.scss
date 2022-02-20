@@ -1,6 +1,26 @@
 //otherjob.scss
 
 #otherbox {width: 1440px; height: 960px; padding: 120px 200px; 
-  background-color: rgba(249, 249, 249);
+  background-color: rgba(249, 249, 249); font-family: sans-serif;
+  .tex_box {width: auto; height: auto; margin-bottom: 30px;
+    & p:nth-of-type(1) {font-size: 40px; font-weight: bold; margin-bottom: 20px;}
+    & p:nth-of-type(2) {font-size: 24px; font-weight: bold; color:#333;}
+  }
+  .price_box {display: flex; justify-content: space-around; width: 960px; height: 260px; border: 1px solid rgba(112,112,112, 0.33);
+    border-radius: 260px; margin: auto; align-items: center;background-color: #f2f2f2; margin-bottom: 100px;
+  & li {width: 230px; height: 230px; border-radius: 100%; text-transform: uppercase; padding: 60px;
+    
+    & p:nth-of-type(1){font-size: 16px; font-weight: bold;}
+    & p:nth-of-type(2){font-size: 40px; font-weight: bold;}
+    & p:nth-of-type(3){font-size: 26px; font-weight: bold;}
+  }
+    & li:nth-of-type(1) {background-color: #797979; color:#fff}
+    & li:nth-of-type(2) {background-color: #fff864;}
+    & li:nth-of-type(3) {background-color: #892dd0;color:#fff}
+  }
 
+  .ex_box {display: flex; justify-content: space-around; align-items: center; width: 960px; height: 75px; border: 1px solid rgba(112,112,112, 0.33); border-radius: 75px; margin: auto;
+    & p {font-size: 16px;}
+    & p:nth-of-type(2) {font-size: 18px; font-weight: bold;}
+  }
 }
