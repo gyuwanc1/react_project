@@ -1,5 +1,6 @@
 import React from 'react'
 import Membermd from './Membermd'
+import Membermd02 from './Membermd02'
 import Memberview from './Memberview'
 
 export default function Membership() {
@@ -7,6 +8,7 @@ export default function Membership() {
     <>
     <Memberview />
     <Membermd />
+    <Membermd02 />
     </>
   )
 }
