@@ -1,0 +1,10 @@
+//memberwarning_area
+
+#memwar_area {width: 1440px; height: 200px; background-color: #eee; font-family: sans-serif; padding-top: 53px;
+  .tex_area {align-items: center; display: flex; justify-content: space-around; width: 750px; height: auto; margin: auto;
+    & h2 { font-size: 18px; font-weight: bold;}
+  .contents_area {width: auto; height: auto; text-align: start; transform: translateX(20px);
+    & li {width: 540px; height: 21px; text-align: start;}
+  }
+  }
+}
