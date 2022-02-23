@@ -1,16 +1,16 @@
-//membermd_02.scss
+//membermd03
 
-#membermd02 {
-  width: 1440px; height: 600px; padding-top:100px; font-size: 16px;
+#membermdbox03 {width: 1440px; height: 600px; padding-top:100px; font-size: 16px;
+  background-color: #f9f9f9; 
   font-family: sans-serif;
   & .nth_01 {width: 40px; height: 40px; border-radius: 100%; margin: auto;
   line-height: 40px; color:#fff; font-weight: bold;
-  background-color: #66279b; margin-bottom: 10px;}  
-  & .nth_02  {font-size: 18px; color: #66279b;}
-  & .nth_03  {font-size: 32px; color: #66279b; font-weight: bold; margin-bottom: 10px;}
+  background-color: #431788; margin-bottom: 10px;}  
+  & .nth_02  {font-size: 18px; color: #431788;}
+  & .nth_03  {font-size: 32px; color: #431788; font-weight: bold; margin-bottom: 10px;}
 
   .md_box {width: auto; height: 300px; padding-top: 20px; color:#333;
-    background: {image:url('../multi/img/md_02.png');
+    background: {image:url('../multi/img/md_03.png');
       repeat:no-repeat;
       position:50% 50% ;
       size: contain;            
@@ -23,4 +23,3 @@
 
 
 }
-
