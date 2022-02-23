@@ -1,4 +1,5 @@
 import React from 'react'
+import Membercode from './Membercode'
 import Membermd from './Membermd'
 import Membermd02 from './Membermd02'
 import Membermd03 from './Membermd03'
@@ -11,6 +12,7 @@ export default function Membership() {
     <Membermd />
     <Membermd02 />
     <Membermd03 />
+    <Membercode />
     </>
   )
 }
