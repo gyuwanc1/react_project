@@ -2,6 +2,7 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 import About from "../component/About";
 import Jobwatching from "../component/Jobwatching";
+import Lounge from "../component/Lounge";
 import MainHome from "../component/MainHome";
 import Membership from "../component/Membership";
 
@@ -15,6 +16,7 @@ export default function Router() {
       <Route path="/About" element={<About />}></Route>  
       <Route path="/Membership" element={<Membership />}></Route> 
       <Route path="/Jobwatching" element={<Jobwatching />}></Route> 
+      <Route path="/Lounge" element={<Lounge />}></Route> 
     </Routes>
   );
 }
